@@ -3,27 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Nettside</title>
+    <title>Min første nettside</title>
 </head>
 <body>
+    <!--Header-->
     <header>
-        <h1>Mitt logo</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="mal.html">Nettside-mal</a></li>
-                <li><a href="ovelse.html">Labøvelse</a></li>
-                <li><a href="#kontakt">Kontakt oss</a></li>
-            </ul>
-        </nav>
+        <h1>Min Nettside</h1>
+        <img src="https://api.logo.com/api/v2/images?design=lg_sHUv3oLyiXmMFDUBfn&width=1000&height=1000&fit=contain&margin_ratio=0&background=%23f4f3f0&u=2025-09-09T17%3A46%3A12.042Z&format=png&quality=30" alt="Min Nettside">
+        <style>
+            img {
+                height: 150px;
+                width: 150px;
+            }
+        </style>
+    
+    <!--Navigasjonsbar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="mal.html">Nettside mal</a></li>
+            <li><a href="ovelse.html">Labøvelse</a></li>
+            <li><a href="#kontakt">Kontakt oss</a></li>
+        </ul>
+    </nav>
     </header>
-    <aside>
+    
+    <aside> </aside>
+    <!--Hovedområde-->
+    <main>
         <section>
-            <h2>Semantisk HTML</h2>
-            <ul>
-                <li><a href="</li>
-            </ul>
+            <article>
+                <h2>Kontakt oss</h2>
+                <p>Her kan du finne informasjon om hvordan du kontakter oss.</p>
+            </article>
+            <article>
+                <h2>Studieplan</h2>
+                <p>Her finner du en oversikt over studieplanen vår.</p>
+            </article>
+            <!--Sideområde-->
+            <aside>
+                <section>
+                    <h3>Lenker om Semantisk HTML</h3>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">HTML Semantics</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Google-søk om HTML5</h3>
+                    <p><a href="https://google.com/search?q=HTML5" target="_blank">Google søk</a></p>
+                </section>
+            </aside>
         </section>
-    </aside>
+    </main>
+    <!--Footer-->
+    <footer id="kontakt">
+        <p>Navn: Adrian Nebelung</p>
+        <p>Epost: <a href="mailto:acnebelu@hiof.no">acnebelu@hiof.no</a></p>
+        <p> 2025 Min Nettside</p>
+    </footer>
 </body>
 </html>
